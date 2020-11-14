@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+  flask_app:
+    image: de4d10ck/flask_example
+    ports:
+    - 5516:5000
