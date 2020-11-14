@@ -64,5 +64,5 @@ jobs:
           docker-compose --no-ansi pull
           docker-compose --no-ansi up -d
         host: ${{ secrets.HOST_ID }}
-        user: ${{ secrets.USER_LOGIN}}
+        user: ${{ secrets.HOST_LOGIN}}
         pass: ${{ secrets.HOST_PASSWORD}}
