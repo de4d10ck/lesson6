@@ -63,6 +63,6 @@ jobs:
           cd nguen
           docker-compose --no-ansi pull
           docker-compose --no-ansi up -d
-        host: ${{ secrets.HOST_ID }}
+        host: ${{ secrets.HOST_IP }}
         user: ${{ secrets.HOST_LOGIN}}
         pass: ${{ secrets.HOST_PASSWORD}}
